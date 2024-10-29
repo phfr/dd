@@ -13,5 +13,9 @@ def foo(bar: str) -> str:
     return bar
 
 
+def calc_sum(x: int, y: int) -> int:
+    return x + y
+
+
 if __name__ == "__main__":  # pragma: no cover
     pass
